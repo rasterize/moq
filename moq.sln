@@ -38,6 +38,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{59984BF2-1C3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{26D1DBBE-3A38-4438-A90E-0957E4F470E0}"
 	ProjectSection(SolutionItems) = preProject
+		fonts\fontawesome-webfont.eot = fonts\fontawesome-webfont.eot
+		fonts\fontawesome-webfont.svg = fonts\fontawesome-webfont.svg
+		fonts\fontawesome-webfont.ttf = fonts\fontawesome-webfont.ttf
+		fonts\fontawesome-webfont.woff = fonts\fontawesome-webfont.woff
+		fonts\FontAwesome.otf = fonts\FontAwesome.otf
 		fonts\glyphicons-halflings-regular.eot = fonts\glyphicons-halflings-regular.eot
 		fonts\glyphicons-halflings-regular.svg = fonts\glyphicons-halflings-regular.svg
 		fonts\glyphicons-halflings-regular.ttf = fonts\glyphicons-halflings-regular.ttf
@@ -50,7 +55,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{66484EC6-BBD
 		css\bootstrap-theme.min.css = css\bootstrap-theme.min.css
 		css\bootstrap.css = css\bootstrap.css
 		css\bootstrap.min.css = css\bootstrap.min.css
+		css\font-awesome.css = css\font-awesome.css
+		css\font-awesome.min.css = css\font-awesome.min.css
 		css\main.css = css\main.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "less", "less", "{040304D2-A900-438A-AACC-F9D823A118A5}"
+	ProjectSection(SolutionItems) = preProject
+		less\bordered-pulled.less = less\bordered-pulled.less
+		less\core.less = less\core.less
+		less\fixed-width.less = less\fixed-width.less
+		less\font-awesome.less = less\font-awesome.less
+		less\icons.less = less\icons.less
+		less\larger.less = less\larger.less
+		less\list.less = less\list.less
+		less\mixins.less = less\mixins.less
+		less\path.less = less\path.less
+		less\rotated-flipped.less = less\rotated-flipped.less
+		less\spinning.less = less\spinning.less
+		less\stacked.less = less\stacked.less
+		less\variables.less = less\variables.less
 	EndProjectSection
 EndProject
 Global
@@ -62,6 +86,7 @@ Global
 		{59984BF2-1C32-4F60-B344-3B39A5EA632F} = {F7660D7E-CE87-46AE-B537-CF675056342B}
 		{26D1DBBE-3A38-4438-A90E-0957E4F470E0} = {F7660D7E-CE87-46AE-B537-CF675056342B}
 		{66484EC6-BBDA-4344-8313-1EB194B72FC6} = {F7660D7E-CE87-46AE-B537-CF675056342B}
+		{040304D2-A900-438A-AACC-F9D823A118A5} = {F7660D7E-CE87-46AE-B537-CF675056342B}
 		{6FD7F4B9-501A-41F7-BE02-7CE1AF8B9610} = {016ABA06-4431-4FFB-843F-ACF1C3A404B6}
 	EndGlobalSection
 EndGlobal
