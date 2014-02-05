@@ -3,8 +3,65 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2013 for Web
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F7660D7E-CE87-46AE-B537-CF675056342B}"
+	ProjectSection(SolutionItems) = preProject
+		.htaccess = .htaccess
+		404.html = 404.html
+		apple-touch-icon-114x114-precomposed.png = apple-touch-icon-114x114-precomposed.png
+		apple-touch-icon-144x144-precomposed.png = apple-touch-icon-144x144-precomposed.png
+		apple-touch-icon-57x57-precomposed.png = apple-touch-icon-57x57-precomposed.png
+		apple-touch-icon-72x72-precomposed.png = apple-touch-icon-72x72-precomposed.png
+		apple-touch-icon-precomposed.png = apple-touch-icon-precomposed.png
+		apple-touch-icon.png = apple-touch-icon.png
+		crossdomain.xml = crossdomain.xml
+		favicon.ico = favicon.ico
+		humans.txt = humans.txt
+		index.html = index.html
+		robots.txt = robots.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{016ABA06-4431-4FFB-843F-ACF1C3A404B6}"
+	ProjectSection(SolutionItems) = preProject
+		js\main.js = js\main.js
+		js\plugins.js = js\plugins.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vendor", "vendor", "{6FD7F4B9-501A-41F7-BE02-7CE1AF8B9610}"
+	ProjectSection(SolutionItems) = preProject
+		js\vendor\bootstrap.js = js\vendor\bootstrap.js
+		js\vendor\bootstrap.min.js = js\vendor\bootstrap.min.js
+		js\vendor\jquery-1.10.1.min.js = js\vendor\jquery-1.10.1.min.js
+		js\vendor\modernizr-2.6.2-respond-1.1.0.min.js = js\vendor\modernizr-2.6.2-respond-1.1.0.min.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{59984BF2-1C32-4F60-B344-3B39A5EA632F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fonts", "fonts", "{26D1DBBE-3A38-4438-A90E-0957E4F470E0}"
+	ProjectSection(SolutionItems) = preProject
+		fonts\glyphicons-halflings-regular.eot = fonts\glyphicons-halflings-regular.eot
+		fonts\glyphicons-halflings-regular.svg = fonts\glyphicons-halflings-regular.svg
+		fonts\glyphicons-halflings-regular.ttf = fonts\glyphicons-halflings-regular.ttf
+		fonts\glyphicons-halflings-regular.woff = fonts\glyphicons-halflings-regular.woff
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{66484EC6-BBDA-4344-8313-1EB194B72FC6}"
+	ProjectSection(SolutionItems) = preProject
+		css\bootstrap-theme.css = css\bootstrap-theme.css
+		css\bootstrap-theme.min.css = css\bootstrap-theme.min.css
+		css\bootstrap.css = css\bootstrap.css
+		css\bootstrap.min.css = css\bootstrap.min.css
+		css\main.css = css\main.css
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{016ABA06-4431-4FFB-843F-ACF1C3A404B6} = {F7660D7E-CE87-46AE-B537-CF675056342B}
+		{59984BF2-1C32-4F60-B344-3B39A5EA632F} = {F7660D7E-CE87-46AE-B537-CF675056342B}
+		{26D1DBBE-3A38-4438-A90E-0957E4F470E0} = {F7660D7E-CE87-46AE-B537-CF675056342B}
+		{66484EC6-BBDA-4344-8313-1EB194B72FC6} = {F7660D7E-CE87-46AE-B537-CF675056342B}
+		{6FD7F4B9-501A-41F7-BE02-7CE1AF8B9610} = {016ABA06-4431-4FFB-843F-ACF1C3A404B6}
 	EndGlobalSection
 EndGlobal
